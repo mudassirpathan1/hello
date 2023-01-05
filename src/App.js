@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+// import ExpenseItem from "./component/ExpenseItem";
+
+// function App(){
+//   return ( <div>
+//     <h2> Lets start react! </h2>
+//     <ExpenseItem> Fuel </ExpenseItem>
+//   </div>
+//     );
+// }
+
+// export default App;
+import React from 'react';
+
+function ExpenseItem(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Expense Items</h1>
+      <ul>
+        <li>Food Rs 10</li>
+        <li>Petrol Rs 100</li>
+        <li>Movies Rs 200</li>
+      </ul>
     </div>
   );
 }
 
-export default App;
+export default ExpenseItem;

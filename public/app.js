@@ -1,6 +1,6 @@
-import React from 'react';
+ import React from 'react';
 
-function ExpenseItem(props) {
+ function ExpenseItem(props) {
   return (
     <div>
       <h1>Expense Items</h1>
@@ -12,3 +12,4 @@ function ExpenseItem(props) {
     </div>
   );
 }
+

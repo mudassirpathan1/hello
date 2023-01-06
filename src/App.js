@@ -1,5 +1,6 @@
 
-// import ExpenseItem from "./component/ExpenseItem";
+ import ExpenseList from "./component/ExpenseItem";
+//import ExpenseItem from "./component/ExpenseItem";
 
 // function App(){
 //   return ( <div>
@@ -10,19 +11,20 @@
 // }
 
 // export default App;
-import React from 'react';
+//mport React from 'react';
 
-function ExpenseItem(props) {
-  return (
-    <div>
-      <h1>Expense Items</h1>
-      <ul>
-        <li>Food Rs 10</li>
-        <li>Petrol Rs 100</li>
-        <li>Movies Rs 200</li>
-      </ul>
-    </div>
-  );
-}
+// function ExpenseItem(props) {
+//   return (
+//     <div>
+//       <h1>Expense Items</h1>
+//       <ul>
+//         <li>Food Rs 10</li>
+//         <li>Petrol Rs 100</li>
+//         <li>Movies Rs 200</li>
+//       </ul>
+//     </div>
+//   );
+// }
 
-export default ExpenseItem;
+
+export default ExpenseList;
